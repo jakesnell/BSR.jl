@@ -1,5 +1,11 @@
 module BSR
 
-# package code goes here
+using MATLAB
 
-end # module
+export
+    gpb
+
+include("matutil.jl")
+include("bsrfun.jl")
+
+end
