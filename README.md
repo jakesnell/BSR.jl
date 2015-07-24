@@ -3,6 +3,7 @@
 The `BSR.jl` library wraps code from the UC Berkeley [Contour Detection and Image Segmentation Resources](http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html) page and exposes it for easy use within Julia. This is a work in progress as only a subset of functionality is exposed (pull requests are welcome!). The following algorithms are currently wrapped:
 
 * Global probability of boundary (gPb)
+* gPb-owt-ucm
 
 Please note that you will need a MATLAB license to use this package, as the original code is written in MATLAB.
 

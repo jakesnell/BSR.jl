@@ -3,7 +3,8 @@ module BSR
 using MATLAB
 
 export
-    gpb
+    gpb,
+    gpb_owt_ucm
 
 include("matutil.jl")
 include("bsrfun.jl")
